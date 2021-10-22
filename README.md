@@ -1,16 +1,17 @@
 ## Sushobhan Parajuli
 
-Hi, I am Sushobhan. I like to work on Machine Learning and Natural Language Processing projects.
+Hi, I am Sushobhan. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
 
-### Most of my projects have been in finance.
+### [RESUME]
 
-Check out this portfolio optimization I programmed for CUNY Investment Challege.
+Generally, I work on finance related projects.
+You can check out this portfolio optimization I programmed for CUNY Investment Challege.
 
 [Portfolio Optimizer](https://github.com/Sushobhan55/Algo/blob/master/Portfolio%20Optimizer.ipynb)
 
-For the future, I plan to present the portfoli0 optmizer in a web-app so users can customize the optmizer with their own portfolio of stocks.
+For the future, I plan to present the portfolio optmizer in a web-app so users can customize the optmizer with their own portfolio of stocks.
 
 Currently, I am working on building a sentiment analysis model for stock price movement prediction. 
 
 ### Contact
-Can you write me @sushobhan[dot]parajuli[at]gmail[dot]com if you have any suggestions, ideas, and want to colaborate. 
+Can you write me at sushobhan[dot]parajuli[at]gmail[dot]com if you have any suggestions, ideas, and want to colaborate. 
