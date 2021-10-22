@@ -2,8 +2,6 @@
 
 Hi, I am Sushobhan. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
 
-### [RESUME](https://github.com/sushobhan55.github.io/blob/main/Sushobhan-Parajuli-Resume.pdf)
-
 Generally, I work on finance related projects.
 You can check out this portfolio optimization I programmed for CUNY Investment Challege.
 
@@ -12,6 +10,8 @@ You can check out this portfolio optimization I programmed for CUNY Investment C
 For the future, I plan to present the portfolio optmizer in a web-app so users can customize the optmizer with their own portfolio of stocks.
 
 Currently, I am working on building a sentiment analysis model for stock price movement prediction. 
+
+### [RESUME](https://github.com/Sushobhan55/sushobhan55.github.io/blob/main/Sushobhan-Parajuli-Resume.pdf)
 
 ### Contact
 Can you write me at sushobhan[dot]parajuli[at]gmail[dot]com if you have any suggestions, ideas, and want to colaborate. 
