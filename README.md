@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Sushobhan Parajuli
 
-You can use the [editor on GitHub](https://github.com/Sushobhan55/sushobhan55.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hi, I am Sushobhan. I I like to work on Machine Learning and Natural Language Processing projects. Hit me up @sushobhan[dot]parajuli[at]gmail[dot]com if you want to collaborate.
 
 ### Markdown
 
