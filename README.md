@@ -1,35 +1,16 @@
 ## Sushobhan Parajuli
 
-Hi, I am Sushobhan. I I like to work on Machine Learning and Natural Language Processing projects. Hit me up @sushobhan[dot]parajuli[at]gmail[dot]com if you want to collaborate.
+Hi, I am Sushobhan. I like to work on Machine Learning and Natural Language Processing projects.
 
-### Markdown
+### Most of my projects have been in finance.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Check out this portfolio optimization I programmed for CUNY Investment Challege.
 
-```markdown
-Syntax highlighted code block
+[Portfolio Optimizer](https://github.com/Sushobhan55/Algo/blob/master/Portfolio%20Optimizer.ipynb)
 
-# Header 1
-## Header 2
-### Header 3
+For the future, I plan to present the portfoli0 optmizer in a web-app so users can customize the optmizer with their own portfolio of stocks.
 
-- Bulleted
-- List
+Currently, I am working on building a sentiment analysis model for stock price movement prediction. 
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sushobhan55/sushobhan55.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Contact
+Can you write me @sushobhan[dot]parajuli[at]gmail[dot]com if you have any suggestions, ideas, and want to colaborate. 
