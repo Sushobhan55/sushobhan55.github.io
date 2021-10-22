@@ -2,7 +2,6 @@
 
 Hi, I am Sushobhan. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
 
-Generally, I work on finance related projects.
 You can check out this portfolio optimization I programmed for CUNY Investment Challege.
 
 [Portfolio Optimizer](https://github.com/Sushobhan55/Algo/blob/master/Portfolio%20Optimizer.ipynb)
