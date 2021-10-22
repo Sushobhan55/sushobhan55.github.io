@@ -11,7 +11,7 @@ For the future, I plan to present the portfolio optmizer in a web-app so users c
 
 Currently, I am working on building a sentiment analysis model for stock price movement prediction. 
 
-### [RESUME](https://github.com/Sushobhan55/sushobhan55.github.io/blob/main/Sushobhan-Parajuli-Resume.pdf)
-
+### [Resume](https://github.com/Sushobhan55/sushobhan55.github.io/blob/main/Sushobhan-Parajuli-Resume.pdf)
+### [LinkedIn](https://www.linkedin.com/sparajuli)
 ### Contact
 Can you write me at sushobhan[dot]parajuli[at]gmail[dot]com if you have any suggestions, ideas, and want to colaborate. 
