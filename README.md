@@ -2,7 +2,7 @@
 
 Hi, I am Sushobhan. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
 
-### [RESUME]
+### [RESUME](https://github.com/sushobhan55.github.io/blob/main/Sushobhan-Parajuli-Resume.pdf)
 
 Generally, I work on finance related projects.
 You can check out this portfolio optimization I programmed for CUNY Investment Challege.
