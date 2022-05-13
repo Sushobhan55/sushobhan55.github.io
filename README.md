@@ -2,7 +2,7 @@
 
 Hi, I am Sushobhan. I am a mathematics undergraduate at CUNY Baruch College and a Data Science fellow at CUNY Tech Prep. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
 
-[Grabanswer](https://github.com/Sushobhan55/Roberta-QuestionAnswering) is web application, yet to deploy, that utilized transformer model to answer questions without having to read the entire text.
+[Grabanswer](https://github.com/Sushobhan55/Roberta-QuestionAnswering) is web application, yet to deploy, that utilized transformer model to answer questions without having to read an entire text.
 
 [Stock Price Movement Predictor](https://github.com/Sushobhan55/stock_sentiment_analysis) performs NLP on real time news headlines to predict stock price movement.
 
