@@ -1,14 +1,5 @@
 ## Sushobhan Parajuli
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 Hi, I am Sushobhan. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
 
