@@ -1,3 +1,9 @@
+@media screen and ( device-width: 320px ) { … }
+
+@media screen and ( min-device-width: 1024px ) { … }
+
+@media screen and ( max-device-width: 1023px ) { … }
+
 Hi, I am Sushobhan. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
 
 [Grabanswer](https://github.com/Sushobhan55/Roberta-QuestionAnswering) is web application, yet to deploy, that utilized transformer model to answer questions without having to read the entire text.
