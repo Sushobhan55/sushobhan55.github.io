@@ -6,7 +6,7 @@ Hi, I am Sushobhan. I am a mathematics undergraduate at CUNY Baruch College and 
 
 [Stock Price Movement Predictor](https://github.com/Sushobhan55/stock_sentiment_analysis) performs NLP on real time news headlines to predict stock price movement.
 
-In [Linear Regression Model](https://github.com/Sushobhan55/MTH-4130-Mathematics-of-Data-Analysis/blob/main/linear%20regression%20with%20R.pdf), R programming language was used and a report on findings with the code was written.
+In [Linear Regression Model](https://github.com/Sushobhan55/MTH-4130-Mathematics-of-Data-Analysis/blob/main/linear%20regression%20with%20R.pdf), I coded with R programming language and wrote a report on findings.
 
 [Portfolio Optimizer](https://github.com/Sushobhan55/Algo/blob/master/Portfolio%20Optimizer.ipynb) was an approach to choose the right stocks and their right voulume in the portfolio in order to maximize its return or minimize the risk in CUNY Investment Challenge.
 
