@@ -12,7 +12,7 @@ In [Linear Regression Model](https://github.com/Sushobhan55/MTH-4130-Mathematics
 
 I like poems. I even tried [generating poems](https://github.com/Sushobhan55/MC-poem-generator) with probability, it is an attempt to find that cordination of mathematics in X-axis and language in the Y-axis and using programming to optimize it. In my free time, I like watching movies, soccer, or listening to jazz. 
 
-### [Resume](https://docs.google.com/document/d/e/2PACX-1vQSnEI_VhaqwOk5nCEwVSjm0QQCWjMZsnNv68dDiTlMmvEuUCB0Mxk-uI-HGCL10GXUoDWzAGetRLC9/pub)
+### [Resume](https://drive.google.com/file/d/1dMdjqQZLrXO3Qo6wCCPFXUg9EVIOUMBE/view?usp=sharing)
 ### [LinkedIn](https://www.linkedin.com/in/sparajuli/)  
 ### [Github](https://github.com/Sushobhan55)
 ### [Kaggle](https://www.kaggle.com/sushobhanparajuli)
