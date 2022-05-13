@@ -2,15 +2,20 @@
 
 Hi, I am Sushobhan. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
 
-You can check out this portfolio optimization I programmed for CUNY Investment Challege.
+[Grabanswer](https://github.com/Sushobhan55/Roberta-QuestionAnswering) is web application, yet to deploy, that utilized transformer model to answer questions without having to read the entire text.
 
-[Portfolio Optimizer](https://github.com/Sushobhan55/Algo/blob/master/Portfolio%20Optimizer.ipynb)
+[Stock Price Movement Predictor](https://github.com/Sushobhan55/stock_sentiment_analysis) performs NLP on real time news headlines to predict stock price movement.
 
-For the future, I plan to present the portfolio optmizer in a web-app so users can customize the optmizer with their own portfolio of stocks.
+In [Linear Regression Model](https://github.com/Sushobhan55/MTH-4130-Mathematics-of-Data-Analysis/blob/main/linear%20regression%20with%20R.pdf), R programming language was used and a report on findings with the code was written.
 
-Currently, I am working on building a sentiment analysis model for stock price movement prediction. 
+[Portfolio Optimizer](https://github.com/Sushobhan55/Algo/blob/master/Portfolio%20Optimizer.ipynb) was an approach to choose the right stocks and their right voulume in the portfolio in order to maximize its return or minimize the risk for CUNY Investment Challenge.
+
+I like poems. I even tried [generating poems](https://github.com/Sushobhan55/MC-poem-generator) with probability, it is an attempt to find that cordination of mathematics in X-axis and language in the Y-axis and using programming to optimize it. In my free time, I like watching movies, soccer, or listening to jazz. 
 
 ### [Resume](https://github.com/Sushobhan55/sushobhan55.github.io/blob/main/Sushobhan-Parajuli-Resume.pdf)
 ### [LinkedIn](https://www.linkedin.com/in/sparajuli/)  
-### Contact
+### [Github](https://github.com/Sushobhan55)
+### [Kaggle](https://www.kaggle.com/sushobhanparajuli)
+### [The Ticker](https://theticker.org/author/sushobhanparajuli/)
+
 Can you write me at sushobhan[dot]parajuli[at]gmail[dot]com if you have any suggestions, ideas, and want to colaborate. 
