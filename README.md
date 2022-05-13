@@ -1,4 +1,6 @@
-Hi, I am Sushobhan. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
+### Sushobhan Parajuli
+
+Hi, I am Sushobhan. I am a mathematics undergraduate at CUNY Baruch College and a Data Science fellow at CUNY Tech Prep. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. 
 
 [Grabanswer](https://github.com/Sushobhan55/Roberta-QuestionAnswering) is web application, yet to deploy, that utilized transformer model to answer questions without having to read the entire text.
 
