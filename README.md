@@ -12,7 +12,7 @@ In [Linear Regression Model](https://github.com/Sushobhan55/MTH-4130-Mathematics
 
 [Portfolio Optimizer](https://github.com/Sushobhan55/Algo/blob/master/Portfolio%20Optimizer.ipynb) was an approach to choose the right stocks and their right voulume in the portfolio in order to maximize its return or minimize the risk in CUNY Investment Challenge.
 
-I like poems. I even tried [generating poems](https://github.com/Sushobhan55/MC-poem-generator) with probability, it is an attempt to optimize that co-ordinate where mathematics is in X-axis and language is in Y-axis with programming. In my free time, I like watching movies, soccer, or listening to jazz. 
+I like poems. I even tried [generating poems](https://github.com/Sushobhan55/MC-poem-generator) with probability, it is an attempt to optimize that co-ordinate where mathematics is in X-axis and language is in Y-axis with programming. In my free time, I like watching movies, soccer, or listening to jazz. I take a keen interest in history and geography as well.
 
 ### [Resume](https://drive.google.com/file/d/1dMdjqQZLrXO3Qo6wCCPFXUg9EVIOUMBE/view?usp=sharing) ♞ [LinkedIn](https://www.linkedin.com/in/sparajuli/) ♜ [Github](https://github.com/Sushobhan55) ♝ [Kaggle](https://www.kaggle.com/sushobhanparajuli) ♕ [The Ticker](https://theticker.org/author/sushobhanparajuli/)
 
