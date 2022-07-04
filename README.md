@@ -1,4 +1,3 @@
-## Sushobhan Parajuli
 ```{r}
 print("Hello World!")
 ```
