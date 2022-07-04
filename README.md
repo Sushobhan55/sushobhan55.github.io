@@ -1,4 +1,4 @@
-# Sushobhan Parajuli
+## Sushobhan Parajuli
 
 Hi, I am Sushobhan. I am a mathematics undergraduate at CUNY Baruch College. I was a research fellow at Microsoft Research's Data Science Summer School and a Data Science fellow at CUNY Tech Prep. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. I primarily use Python and R programming languages.
 
@@ -16,4 +16,4 @@ I like poems. I even tried [generating poems](https://github.com/Sushobhan55/MC-
 
 ### [Resume](https://drive.google.com/file/d/1dMdjqQZLrXO3Qo6wCCPFXUg9EVIOUMBE/view?usp=sharing) ♞ [LinkedIn](https://www.linkedin.com/in/sparajuli/) ♜ [Github](https://github.com/Sushobhan55) ♝ [Kaggle](https://www.kaggle.com/sushobhanparajuli) ♕ [The Ticker](https://theticker.org/author/sushobhanparajuli/)
 
-Can you write me at sushobhan[dot]parajuli[at]gmail[dot]com if you have any suggestions, ideas, and want to colaborate? 
+*Can you write me at sushobhan[dot]parajuli[at]gmail[dot]com if you have any suggestions, ideas, and want to colaborate?*
