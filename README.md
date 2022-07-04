@@ -1,6 +1,5 @@
-```{r}
-print("Hello World!")
-```
+## Sushobhan Parajuli
+
 Hi, I am Sushobhan. I am a mathematics undergraduate at CUNY Baruch College. I was a research fellow at Microsoft Research's Data Science Summer School and a Data Science fellow at CUNY Tech Prep. I like to work on Statistical Analysis, Machine Learning and Natural Language Processing projects. I primarily use Python and R programming languages.
 
 Look into this [research replication](http://htmlpreview.github.io/?https://raw.githubusercontent.com/msr-ds3/covid-nyc-2022-group-5/main/Research-Replication.html) that I produced at Microsoft Research's school. 
