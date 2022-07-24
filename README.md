@@ -14,6 +14,6 @@ In [Linear Regression Model](https://github.com/Sushobhan55/MTH-4130-Mathematics
 
 I like poems. I even tried [generating poems](https://github.com/Sushobhan55/MC-poem-generator) with probability, it is an attempt to optimize that co-ordinate where mathematics is in X-axis and language is in Y-axis with programming. In my free time, I like watching movies, soccer, or listening to jazz. I take a keen interest in history and geography as well.
 
-### [Resume](https://drive.google.com/file/d/1dMdjqQZLrXO3Qo6wCCPFXUg9EVIOUMBE/view?usp=sharing) ♞ [LinkedIn](https://www.linkedin.com/in/sparajuli/) ♜ [Github](https://github.com/Sushobhan55) ♝ [Kaggle](https://www.kaggle.com/sushobhanparajuli) ♕ [The Ticker](https://theticker.org/author/sushobhanparajuli/)
+### [Resume](https://drive.google.com/file/d/1dMdjqQZLrXO3Qo6wCCPFXUg9EVIOUMBE/view?usp=sharing) ♞ [LinkedIn](https://www.linkedin.com/in/sparajuli/) ♜ [Github](https://github.com/Sushobhan55) ♝ [Kaggle](https://www.kaggle.com/sushobhanparajuli) ♕ [The Ticker](https://theticker.org/author/sushobhanparajuli/) ♚ [WordPress](https://damaruballav.wordpress.com/)
 
 *Can you write me at sushobhan[dot]parajuli[at]gmail[dot]com if you have any suggestions, ideas, and want to colaborate?*
