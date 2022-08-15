@@ -34,10 +34,9 @@
             </div>
         </nav>
     </header>
-    
     <article class="page container">
         <div class="page-content">
-            <div class="w3-content w3-section" style="max-width:500px">
+            <div class="w3-content w3-section" style="max-width:600px">
             <img class="mySlides" src="images/37th.jpg" alt="View of the dawning sky, United Nations HQ and East River in sight, from the 37th street eastside." title="View of the dawning sky, United Nations HQ and East River in sight, from the 37th street eastside." style="width:100%">
             <img class="mySlides" src="images/bk.jpg" alt="View of the dusking sky, Brooklyn in sight, from the elevated tracks of M train." title="View of the dusking sky, Brooklyn in sight, from the elevated tracks of M train." style="width:100%">
             <img class="mySlides" src="images/cpark2.jpg" alt="View of Jacqueline Kennedy Onassis Reservoir inside the Central Park, a flock of duck floating on a log in sight." title="View of Jacqueline Kennedy Onassis Reservoir inside the Central Park, a flock of duck floating on a log in sight." style="width:100%">
@@ -60,12 +59,24 @@
             x[i].style.display = "none";  
           }
           myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
+          if (myIndex > x.length) {myIndex = 1}   
           x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 3000); // Change image every 3 seconds
+          setTimeout(carousel, 2000); // Change image every 2 seconds
         }
     </script>
+        
     </article>
     
+    <footer class="site-footer">
+        <div class="container">
+            <small>
+                    <b>Last Updated:</b> Aug 15, 2022
+                </small>
+            <small class="block">
+                    © 2022 Sushobhan Parajuli · &lt;/&gt; Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace" target="_blank">Thinkspace</a>; hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+                </small>
+        </div>
+    </footer>
    </body>
+    
 </html>
