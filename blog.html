@@ -35,16 +35,16 @@
           <h1 class="logo">Fine-tuning a LLM to build a customized chat-bot.</h1>
         </div>
           <div class="blog-post">
-          <video width="400" height="300" autoplay muted>
-            <source src="images/demo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
           <p>A large language model(LLM) is a deep learning model trained on enormous text data available on the internet. LLMs are a remarkable development in the field of Natural Language Processing as they are capable of language understanding and generation. Given sequence of text, a LLM understands it and predicts the next token in a sequence. It uses an attention mechanism that allows it to highlight the most relevant information of the input text, and that’s how it understands the text. Then the model calculates the probability of occurrence of different tokens that could follow the input sequence, and generates the token with the highest probability. A token can be a word or a character.
           <p>Some of the examples of LLMs are ELMo, Turing-NLG, Generative Pre-trained Transformer (GPT, GPT-2, and GPT-3), BERT, RoBERTa, and so on. These are very large and computationally expensive machine learning models and are developed by leading corporations such as Google, Open AI, Microsoft and so on. An individual cannot build such a powerful model on their own, however they can fine-tune them on their data to get a desired model. One can fine-tune these pre-trained models on specific data to perform a downstream task, a task that you want to solve. Fine-tuning refers to re-training the pre-trained model on a custom data.
           <p>I built a chatbot that imitates Jordan Peterson. First, I created a dataset pretending I was talking to him and his responses are his actual words from either quora answers or interview transcripts. My responses are relevant to his responses and thus it builds up as a conversation. The dataset has in total 761 text messages, which is a small size data.
           <p>Next, I fine-tuned DialoGPT on the above dataset. DialoGPT is GPT-2 fine-tuned on conversation data. DialoGPT is an example of fine-tuned LLM to attain a downstream task, to serve as a conversational chatbot. Further fine-tuning on the above dataset makes it chat like Jordan Peterson.
           <p>Fine-tuning a pre-trained model works fine to make LLMs perform downstream tasks; however, if the data is large, it faces the same problem of being computationally expensive like training a new model. Recently, researchers have found that <a href="https://arxiv.org/pdf/2111.01998.pdf">prompt learning</a> is very effective in attaining downstream tasks, especially if it requires small data size. Prompt learning is a paradigm of providing LLMs with a carefully designed prompt, for example – a description of tasks, so it performs that specific task.
           <p><i><a href="https://github.com/Sushobhan55/Peterson-Bot">Click for the github repository.</i>
+           <video width="400" height="300" autoplay muted>
+            <source src="images/demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
           </div>
       </div>
     </article>
