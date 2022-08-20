@@ -216,6 +216,20 @@ a {
     line-height: 1;
 }
 
+/* Blog */
+
+.blog-post{
+	margin-top:20px;
+	float:left;
+}
+.blog-heading{
+	font-size: 36px;
+	margin-bottom:20px;
+}
+.sidebar{
+	float:right;
+}
+
 /* Pictures */
 
 .mySlides {display:none;}
