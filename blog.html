@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sushobhan Parajuli</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <div class="container flex-wrap">
+                <h1 class="logo">
+                    <a href="https://sushobhan55.github.io//">Sushobhan Parajuli</a>
+                </h1>
+                <ul class="navbar">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://theticker.org/author/sushobhanparajuli/">The Ticker</a><li>
+                    <li><a href="photography.html">Photography</a></li>
+                    <li><a href="">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <article class="page container">
+      <div class="box">
+        <div class="blog-heading">
+          <h1> Fine-tuning a LLM to build a customized chat-bot.</h1>
+        </div>
+        <div class="blog-post">
+          <video width="400" height="340" autoplay muted>
+            <source src="images/demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p>Large language models(LLMs) are a remarkable development in the field of Natural Language Processing as they are capable of language understanding and generation.
+          <p>A LLM is a deep learning model trained on enormous text data available on the internet. Given a task, in the form of text, a LLM understands it and predicts the next token in a sequence. It uses an attention mechanism that allows it to highlight the most relevant information of the input text, and that’s how it understands the text. Then the model calculates the probability of occurrence of different tokens given the input text, and generates the next token with the highest probability. A token can be a word or a character.
+          <p>Some of the examples of LLMs are ELMo, Turing-NLG, Generative Pre-trained Transformer (GPT, GPT-2, and GPT-3), BERT, RoBERTa, and so on. These are very large and computationally expensive machine learning models and are developed by leading corporations such as Google, Open AI, Microsoft and so on. An individual cannot build such a powerful model on their own, however they can fine-tune them on their data to get a desired model. One can fine-tune these pre-trained models on specific data to perform a downstream task, a task that you want to solve. Fine-tuning refers to re-training the pre-trained model on a custom data.
+          <p>I wanted to build a chatbot that imitates Jordan Peterson. Thus, I created a dataset pretending I was talking to him and his responses are his actual words from either quora answers or interview transcripts. My responses are relevant to his responses and thus it builds up as a conversation. The dataset has in total 761 text messages, which is a small size data.
+          <p>Next, I fine-tuned DialoGPT on the above dataset. DialoGPT is GPT-2 fine-tuned on conversation data. DialoGPT is an example of fine-tuned LLM to attain a downstream task, to serve as a conversational chatbot. Further fine-tuning on the above dataset makes it chat like Jordan Peterson.
+          <p>Fine-tuning a pre-trained model works fine to make LLMs perform downstream tasks; however, if the data is large, it faces the same problem of being computationally expensive like training a new model. Recently, researchers have found that prompt learning is very effective in attaining downstream tasks, especially if it requires small data size. Prompt learning is a paradigm of providing LLMs with a carefully designed prompt, for example – a description of tasks, so it performs that specific task.
+        </div>
+    </article>
+    <footer class="site-footer">
+        <div class="container">
+            <small>
+                    <b>Last Updated:</b> Aug 15, 2022
+                </small>
+            <small class="block">
+                    © 2022 Sushobhan Parajuli · &lt;/&gt; Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace" target="_blank">Thinkspace</a>; hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+                </small>
+        </div>
+    </footer>
+</body>
+
+</html>
