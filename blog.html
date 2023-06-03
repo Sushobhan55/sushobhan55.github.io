@@ -72,7 +72,6 @@
              <p>I calculated the annual variance-covariance matrix with an account that a typical year has 252 trading days. Then I used the above variance formula to calculate the portfolio’s variance, followed by its standard deviation.
           <p>The result in percentage was an expected annual return of <strong>34.0%</strong> and annual risk/volatility of 22.0%. This return and risk composition is suboptimal and the initial portfolio, each stock weighting 5%, is one of many suboptimal portfolios that lie below the efficient frontier. 
            <img src="images/EF.jpg" alt="Efficient Frontier" width="auto" height="400" align="left">
-          <p>There required an optimization of the portfolio.
           <u><p>Optimization with Python</u>
                 <p>I used <code>PyPortfolioOpt</code> to import <code>EfficientFrontier, risk_models, expected_returns, and objective_functions</code>. There is a detailed explanation of this package in its <a href="https://pyportfolioopt.readthedocs.io/en/latest/">documentation</a>. I calculated the expected return of the portfolio and the annualized sample covariance matrix of individual returns using the imported libraries. 
                 <p>The next step was to optimize the Sharpe ratio. <strong>Sharpe ratio</strong> is the difference between the returns of the investment and the risk-free return, divided by the standard deviation of the investment. The higher sharpe ratio means that the return/risk relationship is more optimal.
