@@ -49,31 +49,31 @@
    <hr>
           
           <div class="blog-heading">Stocks Portfolio Optimization with Python</div>
-          <b>Efficient Frontier</b>
+          <u><p>Efficient Frontier</u>
           <p>Efficient frontier is the set of optimal portfolios that offer the highest expected return for a given level of risk or the lowest risk for a given level of expected return.
           <p>Portfolio’s expected return is the sum of each product of an individual asset’s expected return with its respective weight in the overall portfolio.
           <p>Rp = ∑(Wi * Ri), where Rp = portfolio expected return,
-                                     Wi = weight of an individual asset, 
-                                     Ri = expected return of an individual asset.
-          <p>Portfolio’s risk/volatility is gauged by its standard deviation, which is the square root of variance. Variance is a function of weights, variance and covariance. It is expressed as a dot product of matrices: σ2 = Wᵀ . V . W, where V = variance-covariance matrix,
-                                                                      W = matrix of individual asset weight,
-                                                                      Wᵀ = transpose of W.
-          <b>Stock Portfolio</b> 
+                                     <p>Wi = weight of an individual asset, 
+                                     <p>Ri = expected return of an individual asset.
+          <p>Portfolio’s risk/volatility is gauged by its standard deviation, which is the square root of variance. Variance is a function of weights, variance and covariance. It is expressed as a dot product of matrices: 
+              <p>σ2 = Wᵀ . V . W, where V = variance-covariance matrix,<p>W = matrix of individual asset weight,<p>Wᵀ = transpose of W.
+          <u><p>Stock Portfolio</u> 
              <p>In python, I picked 20 different stocks across different industries to comprise a portfolio using <code>pandas_datareader</code>. Initially, I assigned 5% weight to each stock in order to observe the expected annual return and annual volatility of the portfolio without optimization. Then I calculated returns on each stock. Finally, I used the above formula (Rp) to calculate the annual portfolio return. Backtesting was done on the past five years of stock price data.
              <p>I calculated the annual variance-covariance matrix with an account that a typical year has 252 trading days. Then I used the above variance formula to calculate the portfolio’s variance, followed by its standard deviation.
           <p>The result in the percentage was an expected annual return of <b>34.0%</b> and annual risk/volatility of 22.0%. This return and risk composition is suboptimal and the initial portfolio, each stock weighting 5%, is one of many suboptimal portfolios that lie below the efficient frontier. 
              <p>There required an optimization of the portfolio.
-          <b>Optimization with Python</b>
+          <u><p>Optimization with Python</u>
                 <p>I used <code>PyPortfolioOpt</code> to import <code>EfficientFrontier, risk_models, expected_returns, and objective_functions</code>. There is a detailed explanation of this package in its <a href="https://pyportfolioopt.readthedocs.io/en/latest/">documentation</a>. I calculated the expected return of the portfolio and the annualized sample covariance matrix of individual returns using the imported libraries. 
                 <p>The next step was to optimize the Sharpe ratio. <b>Sharpe ratio</b> is the difference between the returns of the investment and the risk-free return, divided by the standard deviation of the investment. The higher sharpe ratio means that the return/risk relationship is more optimal.
                 <p>In order to avoid many negligible positions, I set the parameter gamma more than 1 by using <code>objective_functions</code>. Higher gamma diversifies the portfolio. I cleaned the weights to get rid of non essential decimal digits.
           <div align="center"><p><p><a href="https://github.com/Sushobhan55/Algo/blob/master/Portfolio%20Optimizer.ipynb">Click here for the entire code.</a></div>
-          <b>Results</b>
+          <u><p>Results</u>
           <p>I was able to optimize my portfolio with an expected annual return <b>59.1%</b> for an annual volatility of 28.3%. The sharpe ratio was 2.02, which is a good measure. 
                 <p>Discrete allocation of each of stock was calculated by using individual weights of the optimized portfolio and imaginative $1,000,000 portfolio amount.
-          <b>Implementation</b>
-                <p>An investor can implement this strategy to gain heigher returns on their investments. They can customize the backtesting period, their portfolio stocks, and portfolio amount and finally get the discrete allocation of stocks in the optimized portfolio. I did the same with my portfolio in an investment challenge and the result was impressive.
-          <hr>          
+          <u><p>Implementation</u>
+                <p>An investor can implement this strategy to gain higher returns on their investments. They can customize the backtesting period, their portfolio stocks, and portfolio amount and finally get the discrete allocation of stocks in the optimized portfolio. I did the same with my portfolio in an investment challenge and the result was impressive.
+          
+    <hr>          
               
       </div>
       </div>
