@@ -45,17 +45,19 @@
           <p>I built a chatbot that imitates Jordan Peterson. First, I created a dataset pretending I was talking to him and his responses are his actual words from either quora answers or interview transcripts. My responses are relevant to his responses and thus it builds up as a conversation. The dataset has in total 761 text messages, which is a small size data.
           <p>Next, I fine-tuned DialoGPT on the above dataset. DialoGPT is GPT-2 fine-tuned on conversation data. DialoGPT is an example of fine-tuned LLM to attain a downstream task, to serve as a conversational chatbot. Further fine-tuning on the above dataset makes it chat like Jordan Peterson.
           <p>Fine-tuning a pre-trained model works fine to make LLMs perform downstream tasks; however, if the data is large, it faces the same problem of being computationally expensive like training a new model. Recently, researchers have found that <a href="https://arxiv.org/pdf/2111.01998.pdf">prompt learning</a> is very effective in attaining downstream tasks, especially if it requires small data size. Prompt learning is a paradigm of providing LLMs with a carefully designed prompt, for example – descriptions of a task, so it performs that specific task.
-          <hr>
+          
+   <hr>
+          
           <div class="blog-heading">Stocks Portfolio Optimization with Python</div>
           <b>Efficient Frontier</b>
-            <p>Efficient frontier is the set of optimal portfolios that offer the highest expected return for a given level of risk or the lowest risk for a given level of expected return.
-            <p>Portfolio’s expected return is the sum of each product of an individual asset’s expected return with its respective weight in the overall portfolio.
-            <p>Rp = ∑(Wi * Ri), where Rp = portfolio expected return
-                                     Wi = weight of an individual asset 
-                                     Ri = expected return of an individual asset
-            <p>Portfolio’s risk aka volatility is gauged by its standard deviation, which is the square root of variance. Variance is a function of weights, variance and covariance. It is expressed as a dot product of matrices: σ2 = Wᵀ . V . W, where V = variance-covariance matrix
-                                                                      W = matrix of individual asset weight
-                                                                      Wᵀ = transpose of W
+          <p>Efficient frontier is the set of optimal portfolios that offer the highest expected return for a given level of risk or the lowest risk for a given level of expected return.
+          <p>Portfolio’s expected return is the sum of each product of an individual asset’s expected return with its respective weight in the overall portfolio.
+          <p>Rp = ∑(Wi * Ri), where Rp = portfolio expected return,
+                                     Wi = weight of an individual asset, 
+                                     Ri = expected return of an individual asset.
+          <p>Portfolio’s risk/volatility is gauged by its standard deviation, which is the square root of variance. Variance is a function of weights, variance and covariance. It is expressed as a dot product of matrices: σ2 = Wᵀ . V . W, where V = variance-covariance matrix,
+                                                                      W = matrix of individual asset weight,
+                                                                      Wᵀ = transpose of W.
           <b>Stock Portfolio</b> 
              <p>In python, I picked 20 different stocks across different industries to comprise a portfolio using <code>pandas_datareader</code>. Initially, I assigned 5% weight to each stock in order to observe the expected annual return and annual volatility of the portfolio without optimization. Then I calculated returns on each stock. Finally, I used the above formula (Rp) to calculate the annual portfolio return. Backtesting was done on the past five years of stock price data.
              <p>I calculated the annual variance-covariance matrix with an account that a typical year has 252 trading days. Then I used the above variance formula to calculate the portfolio’s variance, followed by its standard deviation.
