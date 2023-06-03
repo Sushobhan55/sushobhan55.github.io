@@ -230,6 +230,23 @@ a {
 	float:right;
 }
 
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#FFFF00;
+  height: 1px;
+}
+
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
 /* Pictures */
 
 .mySlides {display:none;}
