@@ -151,6 +151,13 @@ a {
     font-weight: normal;
 }
 
+.flex-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .page-intro {
     border-collapse: collapse;
     font-feature-settings: "kern", "liga", "tnum";
