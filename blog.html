@@ -33,34 +33,19 @@
   <div id="blog-list">
     <h3>Blog Posts:</h3>
   <ul>
-    <li><a href="#blog1">Fine-tuning a LLM to build a customized chatbot.</a></li>
     <li><a href="#blog2">Portfolio optimization with python</a></li>
+    <li><a href="#blog1">Fine-tuning a LLM to build a customized chatbot.</a></li>
   </ul>
   </div>
     
     <article class="page container">
       <div class="page-content">
       <div class="blog-post">
-      <div id="blog1">
-        <div class="blog-heading">Fine-tuning a LLM to build a customized chatbot.</div>
-          <p>August 22, 2022</p>
-          <p>A large language model(LLM) is a deep learning model trained on enormous text data available on the internet. LLMs are a remarkable development in the field of Natural Language Processing as they are capable of language understanding and generation. Given a sequence of text, a LLM understands it and predicts the next token in the sequence. It uses an attention mechanism that allows it to highlight the most relevant information of the input text, and that’s how it understands the text. Then the model calculates probabilities of occurrence of different tokens that could follow the input sequence, and generates the token with the highest probability. A token can be a word or a character.
-          <p>Some of the examples of LLMs are ELMo, Turing-NLG, Generative Pre-trained Transformer (GPT, GPT-2, and GPT-3), BERT, RoBERTa, and so on. These are very large and computationally expensive machine learning models and are developed by corporations and research groups. An individual may not build such a powerful model on their own, however they can fine-tune them on their data to get a desired model. One can fine-tune these pre-trained models on specific data to perform a downstream task, a task that you want to solve. Fine-tuning refers to re-training the pre-trained model on a custom data.
-            <div align="center">
-            <video width="500" height="300" autoplay muted>
-                <source src="images/demo.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p><a href="https://github.com/Sushobhan55/Peterson-Bot">Click for the github repository.</a>
-            </div>
-          <p>I built a chatbot that imitates Jordan Peterson. First, I created a dataset pretending I was talking to him and his responses are his actual words from either quora answers or interview transcripts. My responses are relevant to his responses and thus it builds up as a conversation. The dataset has in total 761 text messages, which is a small size data.
-          <p>Next, I fine-tuned DialoGPT on the above dataset. DialoGPT is GPT-2 fine-tuned on conversation data. DialoGPT is an example of fine-tuned LLM to attain a downstream task, to serve as a conversational chatbot. Further fine-tuning on the above dataset makes it chat like Jordan Peterson.
-          <p>Fine-tuning a pre-trained model works fine to make LLMs perform downstream tasks; however, if the data is large, it faces the same problem of being computationally expensive like training a new model. Recently, researchers have found that <a href="https://arxiv.org/pdf/2111.01998.pdf">prompt learning</a> is very effective in attaining downstream tasks, especially if it requires small data size. Prompt learning is a paradigm of providing LLMs with a carefully designed prompt, for example – descriptions of a task, so it performs that specific task.
-     </div>
-   <hr>
+ 
+               
      <div id="blog2">   
-          <p><div class="blog-heading">Portfolio optimization with python</div>
-           <p>June 3, 2023</p>
+          <div class="blog-heading">Portfolio optimization with python</div>
+          <p>June 3, 2023</p>
           <strong><p>Efficient Frontier</strong>
           <p>Efficient frontier is a set of optimal portfolios that offer the highest expected return for a given level of risk or lowest risk for a given level of expected return.
           <p>Portfolio’s expected return is the sum of each product of an individual asset’s expected return with its respective weight in the overall portfolio.
@@ -85,7 +70,27 @@
           <strong><p>Implementation</strong>
                 <p>An investor can implement this strategy to gain higher returns on their investments. They can customize the backtesting period, their portfolio stocks, and portfolio amount and finally get the discrete allocation of stocks in the optimized portfolio. I did the same with my portfolio in an investment challenge, and the result was impressive.
       </div>
-    <hr>          
+          
+   <hr>
+          
+      <div id="blog1">
+        <p><div class="blog-heading">Fine-tuning a LLM to build a customized chatbot.</div>
+          <p>August 22, 2022</p>
+          <p>A large language model(LLM) is a deep learning model trained on enormous text data available on the internet. LLMs are a remarkable development in the field of Natural Language Processing as they are capable of language understanding and generation. Given a sequence of text, a LLM understands it and predicts the next token in the sequence. It uses an attention mechanism that allows it to highlight the most relevant information of the input text, and that’s how it understands the text. Then the model calculates probabilities of occurrence of different tokens that could follow the input sequence, and generates the token with the highest probability. A token can be a word or a character.
+          <p>Some of the examples of LLMs are ELMo, Turing-NLG, Generative Pre-trained Transformer (GPT, GPT-2, and GPT-3), BERT, RoBERTa, and so on. These are very large and computationally expensive machine learning models and are developed by corporations and research groups. An individual may not build such a powerful model on their own, however they can fine-tune them on their data to get a desired model. One can fine-tune these pre-trained models on specific data to perform a downstream task, a task that you want to solve. Fine-tuning refers to re-training the pre-trained model on a custom data.
+            <div align="center">
+            <video width="500" height="300" autoplay muted>
+                <source src="images/demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p><a href="https://github.com/Sushobhan55/Peterson-Bot">Click for the github repository.</a>
+            </div>
+          <p>I built a chatbot that imitates Jordan Peterson. First, I created a dataset pretending I was talking to him and his responses are his actual words from either quora answers or interview transcripts. My responses are relevant to his responses and thus it builds up as a conversation. The dataset has in total 761 text messages, which is a small size data.
+          <p>Next, I fine-tuned DialoGPT on the above dataset. DialoGPT is GPT-2 fine-tuned on conversation data. DialoGPT is an example of fine-tuned LLM to attain a downstream task, to serve as a conversational chatbot. Further fine-tuning on the above dataset makes it chat like Jordan Peterson.
+          <p>Fine-tuning a pre-trained model works fine to make LLMs perform downstream tasks; however, if the data is large, it faces the same problem of being computationally expensive like training a new model. Recently, researchers have found that <a href="https://arxiv.org/pdf/2111.01998.pdf">prompt learning</a> is very effective in attaining downstream tasks, especially if it requires small data size. Prompt learning is a paradigm of providing LLMs with a carefully designed prompt, for example – descriptions of a task, so it performs that specific task.
+     </div>
+          
+   <hr>       
               
       </div>
       </div>
