@@ -118,6 +118,21 @@ a {
     min-height: 64px;
 }
 
+.container {
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto;
+    font-weight: normal;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .logo {
     margin: 5px 0;
     cursor: pointer;
@@ -149,13 +164,6 @@ a {
     margin-right: auto;
     max-width: auto;
     font-weight: normal;
-}
-
-.flex-wrap {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .page-intro {
