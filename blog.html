@@ -33,8 +33,9 @@
   <div id="blog-list">
     <h3>Blog Posts:</h3>
   <ul>
-    <li><a href="#blog2">Portfolio optimization with python</a></li>
-    <li><a href="#blog1">Fine-tuning a LLM to build a customized chatbot.</a></li>
+    <li><a href="#blog3">Time Travel Made Possible with AI</a></li>
+    <li><a href="#blog2">Portfolio Optimization with Python</a></li>
+    <li><a href="#blog1">Fine-tuning a LLM to Build a Customized Chatbot</a></li>
   </ul>
   </div>
     
@@ -42,9 +43,24 @@
       <div class="page-content">
       <div class="blog-post">
  
-               
+    <div id="blog3">
+        <p><div class="blog-heading">Time Travel Made Possible with AI</div>
+          <p>June 14, 2023</p>
+          <p>Last summer, while leisurely walking through Central Park's gentle hills, a captivating idea sparked my imagination. With a profound interest in history and geography, I couldn't help but delve into the possibilities that lay before me. It all began when Zack, my data science instructor from CUNY Tech Prep, introduced me to GPT-3 and recommended an enlightening podcast episode titled "The Ghost in the Machine" by This American Life. The episode featured a writer utilizing GPT-3 to evoke the writings of her late sister. Back then, before the pervasive presence of ChatGPT, this particular episode aroused my curiosity.</p>
+          <p>To add to the mix, I had recently watched Martin Scorsese's masterpiece, "The Gangs of New York," which I revisited more than once. As I wandered through the park, an idea began to take shape in my mind—a virtual world where historical maps and places came alive, populated by the spirits of the past.  With each step I took on the streets of Manhattan, I envisioned the prospect of witnessing ancient New York City in its full splendor. Imagining chance encounters with ordinary citizens from Five Points in the 1840s, engaging in open conversations that traversed time. Alternatively, stumbling upon Walt Whitman in a dimly lit tavern in downtown Brooklyn, and sharing my profound admiration for "Crossing Brooklyn Ferry." Perhaps, in this imagined realm, our encounter even inspired Whitman to pen this magnificent poem. Of course, such musings were in jest. Imagine the possibility of conversing with John Pierpont Morgan, exchanging casual banter about the world of banking. Envision meeting Hamilton and beseeching him to reconsider his fateful duel with Burr. The realm of possibilities was boundless.</p>
+            <div align="center">
+                <img src="images/ai_nyc_1920s.jpg" alt="AI generated NYC in 1920s" width="410" height="auto">
+                <p><u>Prompt: Rush hour in the 1920s NYC.</u></p>
+            </div>
+        <p>This concept further fueled my imagination and led me to ponder the practicality of turning this vision into reality. At the time, the buzz surrounding virtual reality held great promise, leading me to believe that ancient New York City could be meticulously recreated through the clever integration of technology. But I didn't want to stop there. I envisioned the creation of other historical locations across various time periods, meticulously designed and populated with lifelike characters. Large language models (LLMs) could be leveraged to personalize these characters through fine tuning on their writings – or the kind of writings they could have written – from the past, and carefully crafted prompts. This immersive journey into the past holds potential for an exceptional blend of education and entertainment.</p>
+        <p>Today, we witness the rise of numerous startup companies harnessing the capabilities of large language models. Enterprises such as Character.AI have focused on crafting personalized characters driven by these models, although they have not yet ventured into recreating historical figures. Initially, my vision centered around incorporating such historical characters into a three-dimensional virtual world, meticulously set in historical locales. However, recent times have seen augmented reality surpass virtual reality in popularity. While virtual reality completely replaces our vision with an immersive experience, augmented reality enriches our reality by integrating virtual elements. While virtual reality can offer an unparalleled journey into the past, augmented reality provides the means to bring forth deceased individuals, powered by LLMs, into our present world.</p>
+        <p>I don’t want to stop here. Imagine this: we could save ourselves as data, so that future generations can play with us even when we're pushing up daisies. And guess what those tech giants with access to our social media might do? Turn us into their very own Ghosts in the Machine. How spooky, yet amusing, to be digital puppets for their entertainment!</p>
+     </div>
+          
+   <hr> 
+          
      <div id="blog2">   
-          <div class="blog-heading">Portfolio optimization with python</div>
+          <p><div class="blog-heading">Portfolio Optimization with Python</div>
           <p>June 3, 2023</p>
           <strong><p>Efficient Frontier</strong>
           <p>Efficient frontier is a set of optimal portfolios that offer the highest expected return for a given level of risk or lowest risk for a given level of expected return.
@@ -58,11 +74,13 @@
              <p>In python, I picked 20 different stocks across different industries to comprise a portfolio using <code>pandas_datareader</code>. Initially, I assigned 5% weight to each stock in order to observe the expected annual return and annual volatility of the portfolio without optimization. Then I calculated returns on each stock. Finally, I used the above formula (Rp) to calculate the annual portfolio return. Backtesting was done on the past five years of stock price data.
              <p>I calculated the annual variance-covariance matrix with an account that a typical year has 252 trading days. Then I used the above variance formula to calculate the portfolio’s variance, followed by its standard deviation.
           <p>The result was an expected annual return of <strong>34.0%</strong> and annual risk/volatility of 22.0%. This return and risk composition is suboptimal, and the initial portfolio is one of many suboptimal portfolios that lie below the efficient frontier. 
-           <img src="images/EF.jpg" alt="Efficient Frontier" width="410" height="auto" align="right">
+           <div>
+              <img src="images/EF.jpg" alt="Efficient Frontier" width="410" height="auto">
+           </div>
           <strong><p>Optimization with Python</strong>
-                <p>I used <code>PyPortfolioOpt</code> to import <code>EfficientFrontier, risk_models, expected_returns, and objective_functions</code>. There is a detailed explanation of this package in its <a href="https://pyportfolioopt.readthedocs.io/en/latest/">documentation</a>. I calculated the expected return of the portfolio and the annualized sample covariance matrix of individual returns using the imported libraries. 
-                <p>The next step was to optimize the Sharpe ratio. <strong>Sharpe ratio</strong> is the difference between the returns of the investment and the risk-free return, divided by the standard deviation of the investment. The higher sharpe ratio means that the return/risk relationship is more optimal.
-                <p>In order to avoid many negligible positions, I set the parameter gamma more than 1 by using <code>objective_functions</code>. Higher gamma diversifies the portfolio. I cleaned the weights to get rid of non essential decimal digits.
+           <p>I used <code>PyPortfolioOpt</code> to import <code>EfficientFrontier, risk_models, expected_returns, and objective_functions</code>. There is a detailed explanation of this package in its <a href="https://pyportfolioopt.readthedocs.io/en/latest/">documentation</a>. I calculated the expected return of the portfolio and the annualized sample covariance matrix of individual returns using the imported libraries. 
+           <p>The next step was to optimize the Sharpe ratio. <strong>Sharpe ratio</strong> is the difference between the returns of the investment and the risk-free return, divided by the standard deviation of the investment. The higher sharpe ratio means that the return/risk relationship is more optimal.
+           <p>In order to avoid many negligible positions, I set the parameter gamma more than 1 by using <code>objective_functions</code>. Higher gamma diversifies the portfolio. I cleaned the weights to get rid of non essential decimal digits.
           <div align="center"><p><a href="https://github.com/Sushobhan55/Algo/blob/master/Portfolio%20Optimizer.ipynb">Click here for the entire code.</a></p></div>
           <strong><p>Results</strong>
           <p>I was able to optimize my portfolio with an expected annual return <strong>59.1%</strong> for an annual volatility of 28.3%. The sharpe ratio was 2.02, which is a good measure. 
@@ -74,7 +92,7 @@
    <hr>
           
       <div id="blog1">
-        <p><div class="blog-heading">Fine-tuning a LLM to build a customized chatbot.</div>
+        <p><div class="blog-heading">Fine-tuning a LLM to Build a Customized Chatbot</div>
           <p>August 22, 2022</p>
           <p>A large language model(LLM) is a deep learning model trained on enormous text data available on the internet. LLMs are a remarkable development in the field of Natural Language Processing as they are capable of language understanding and generation. Given a sequence of text, a LLM understands it and predicts the next token in the sequence. It uses an attention mechanism that allows it to highlight the most relevant information of the input text, and that’s how it understands the text. Then the model calculates probabilities of occurrence of different tokens that could follow the input sequence, and generates the token with the highest probability. A token can be a word or a character.
           <p>Some of the examples of LLMs are ELMo, Turing-NLG, Generative Pre-trained Transformer (GPT, GPT-2, and GPT-3), BERT, RoBERTa, and so on. These are very large and computationally expensive machine learning models and are developed by corporations and research groups. An individual may not build such a powerful model on their own, however they can fine-tune them on their data to get a desired model. One can fine-tune these pre-trained models on specific data to perform a downstream task, a task that you want to solve. Fine-tuning refers to re-training the pre-trained model on a custom data.
@@ -101,7 +119,7 @@
     <footer class="site-footer">
         <div class="container">
             <small>
-                    <b>Last Updated:</b> Jun 03, 2023
+                    <b>Last Updated:</b> Jun 14, 2023
                 </small>
             <small class="block">
                     © 2023 Sushobhan Parajuli · &lt;/&gt; Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace" target="_blank">Thinkspace</a>; hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
