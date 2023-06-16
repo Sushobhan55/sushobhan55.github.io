@@ -220,7 +220,7 @@ a {
 
 .blog-post{
 	margin-top:20px;
-	float:center;
+	margin: 0 auto;
 }
 
 .blog-heading{
@@ -266,11 +266,10 @@ a {
 }
 
 hr {
-  border: 3;
+  border: 3px solid black;
   clear:both;
   display:block;
   width: 96%;               
-  background-color: black;
   height: 5px;
 }
 
