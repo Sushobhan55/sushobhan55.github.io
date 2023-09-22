@@ -216,16 +216,6 @@ a {
     line-height: 1;
 }
 
-/* Apps */
-
-div {
-  text-align:center;
-  width:100%;
-}
-div > iframe{
-  width: 200px;
-}
-
 /* Blog */
 
 .blog-post{
