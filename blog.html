@@ -45,7 +45,7 @@
   <div id="blog-list">
     <h3>Blog Posts:</h3>
   <ul>
-    <!-- <li><a href="#blog5">Tokenizing Peace</a></li> -->
+    <li><a href="#blog5">Inverse Scaling and Finance LMs</a></li>
     <li><a href="#blog4">Benford's Law in Stock Returns</a></li>
     <li><a href="#blog3">Time Travel Made Possible with AI</a></li>
     <li><a href="#blog2">Portfolio Optimization with Python</a></li>
@@ -55,16 +55,32 @@
     
 <div class="page-content">  
 <div class="blog-post">
-<!--
+
     <div id="blog5">
-        <div class="blog-heading">Tokenizing Peace</div>
-        <p>October 16, 2023</p>
-        <p>I've been thinking about the ongoing conflicts in Israel-Palestine and Ukraine-Russia. Even though these conflicts are far away, they are essentially connected in the narratives of the global community, affecting us all. World is divided in many ways, and often the news we hear, or we read, are representing such factions. I don’t take sides; instead, I try to understand the pain and challenges faced by those directly affected. It’s from a bird’s-eye view that I approach these subjects. I understand that the turmoil of war may be oceans away, but its reverberations resonate through the shared human experience. I have witnessed the scars of a civil war in my childhood, and let me assure you, the pain of human suffering transcends all sides in times of conflict. Conflicts start because of poor leadership and bad decisions! Conflicts do not start because a human hates another human! It's up to all of us to choose leaders who can make wise choices. I understand, some countries are limited to autocracies. This is not the topic of discussion here, but autocrats too love money. And that’s the topic here!</p>
-        <p>What if we use blockchain technology to encourage peace? Blockchain, a secure, transparent, and immutable digital ledger, operates without centralized control. One notable application of blockchain is cryptocurrency. For instance, ETH is Ethereum's native cryptocurrency. Additionally, various platforms can create their own crypto tokens on existing blockchains, like Ethereum. I propose the creation of tokens that represent a country's peace index, which quantifies its level of peace. These peace tokens could be traded, generating capital for each country. Their value would be influenced by the country's involvement in conflict, as indicated by the peace index, and by the tokens' supply and demand. This could serve as an incentive for countries to prioritize peace over war. While this concept may foster peace in the world, it also has the potential to introduce new challenges or shift existing financial issues to a different arena. Hence, it requires further research and discussions to materialize.</p>
-     </div>
+        <div class="blog-heading">Inverse Scaling and Finance LMs</div>
+        <p>October 30, 2023</p>
+        <p>Scaling Language Models (LMs) through increased parameters, training data, and computational resources typically improves their performance. However, in the paper "Inverse Scaling: When Bigger Isn't Better", its authors highlight instances where scaling decreases model performance[1]. They identify four potential reasons for this, one of which is a preference for repeating memorized sequences over following in-context instructions. An example of such a task is "Into the Unknown".</p>
+            <div align="center">
+                <img style="max-width: 100%;" src="images/intotheunknown.png" alt="Data" height="auto">
+                <p><u>"Into the Unknown" task from above paper</u></p>
+            </div>
+        <p>This task evaluates LMs' ability to acquire new information relevant to a given question by presenting a scenario and a question. LMs are asked to determine which of two answer choices provides information necessary to answer the question, one being redundant with the scenario (incorrect) and the other offering novel insights (correct). Inverse scaling is more likely when larger models increasingly depend on context-based pattern matching, causing a bias toward redundant information over novel insights. This task exposes limitations in LMs' ability to acquire new information.</p>
+        <p>One of the areas that requires processing of new information is finance. A huge amount of information is generated at any given moment, and people in finance have to consider this information as soon as possible. Recently, there have been adaptations of LMs in finance[2][3]. As such domain-specific LMs are being researched and applied in various tasks, including building a trading agent[4], it is important to study the instances of inverse scaling. Especially in finance where there is the presence of abundant noise and redundant information, and acting upon the relevant new information is crucial.</p>
+        <p><em>Inspired by the “Into the Unknown” task, I designed the following similar scenarios that can be used to test the financial decision-making abilities of LMs.</em></p>
+            <div align="center">
+                <img style="max-width: 100%;" src="images/itufinance.png" alt="Data" height="auto">
+                <p><u>Tasks like "Into the Unknown" in finance</u></p>
+            </div>
+        <p><em>
+          <li><a href="https://arxiv.org/abs/2306.09479">[1] Inverse Scaling: When Bigger Isn't Better</a></li>
+          <li><a href="https://arxiv.org/abs/2303.17564">[2] BloombergGPT: A Large Language Model for Finance</a></li>
+          <li><a href="https://arxiv.org/abs/2306.06031">[3] FinGPT: Open-Source Financial Large Language Models</a></li>
+          <li><a href="https://arxiv.org/abs/2309.03736">[4] TradingGPT: Multi-Agent System with Layered Memory and Distinct Character for Enhanced Financial Trading Performance</a></li>
+        </em></p>
+      
           
    <hr> 
- -->   
+
     <div id="blog4">
         <div class="blog-heading">Benford's Law in Stock Returns</div>
         <p>October 2, 2023</p>
@@ -89,7 +105,6 @@
           
    <hr> 
         
-<div class="blog-post">
     <div id="blog3">
         <div class="blog-heading">Time Travel Made Possible with AI</div>
           <p>June 14, 2023</p>
@@ -106,7 +121,6 @@
           
    <hr> 
     
-<div class="blog-post">
      <div id="blog2">   
           <p><div class="blog-heading">Portfolio Optimization with Python</div>
           <p>June 3, 2023</p>
@@ -137,7 +151,6 @@
           
    <hr>
     
- <div class="blog-post"> 
       <div id="blog1">
         <p><div class="blog-heading">Fine-tuning a LLM to Build a Customized Chatbot</div>
           <p>August 22, 2022</p>
