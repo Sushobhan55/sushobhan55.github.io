@@ -59,21 +59,17 @@
     <div id="blog5">
         <div class="blog-heading">Inverse Scaling and Finance LMs</div>
         <p>October 30, 2023</p>
-        <p>Scaling Language Models (LMs) through increased parameters, training data, and computational resources typically improves their performance. However, in the paper "Inverse Scaling: When Bigger Isn't Better", its authors highlight instances where scaling decreases model performance[1]. They identify four potential reasons for this, one of which is a preference for repeating memorized sequences over following in-context instructions. An example of such a task is "Into the Unknown".</p>
+        <p>Scaling Language Models (LMs) through increased parameters, training data, and computational resources typically improves their performance. However, in the paper <a href="https://arxiv.org/abs/2306.09479" target="_blank">"Inverse Scaling: When Bigger Isn't Better"</a>, its authors highlight instances where scaling decreases model performance[1]. They identify four potential reasons for this, one of which is a preference for repeating memorized sequences over following in-context instructions. An example of such a task is "Into the Unknown".</p>
             <div align="center">
                 <img style="max-width: 100%;" src="images/intotheunknown.png" alt="Data" height="auto">
                 <p><u>"Into the Unknown" task from above paper</u></p>
             </div>
         <p>This task evaluates LMs' ability to acquire new information relevant to a given question by presenting a scenario and a question. LMs are asked to determine which of two answer choices provides information necessary to answer the question, one being redundant with the scenario (incorrect) and the other offering novel insights (correct). Inverse scaling is more likely when larger models increasingly depend on context-based pattern matching, causing a bias toward redundant information over novel insights. This task exposes limitations in LMs' ability to acquire new information.</p>
-        <p>One of the areas that requires processing of new information is finance. A huge amount of information is generated at any given moment, and people in finance have to consider this information as soon as possible. Recently, there have been adaptations of LMs in finance[2][3]. As such domain-specific LMs are being researched and applied in various tasks, including building a trading agent[4], it is important to study the instances of inverse scaling. Especially in finance where there is the presence of abundant noise and redundant information, and acting upon the relevant new information is crucial.</p>
+        <p>One of the areas that requires processing of new information is finance. A huge amount of information is generated at any given moment, and people in finance have to consider this information as soon as possible. Recently, there have been adaptations of LMs in finance, such as <a href="https://arxiv.org/abs/2303.17564" target="_blank">"BloombergGPT: A Large Language Model for Finance"</a>. As such domain-specific LMs are being researched and applied in various tasks, <a href="https://arxiv.org/abs/2309.03736" target="_blank">including building a trading agent</a>, it is important to study the instances of inverse scaling. Especially in finance where there is the presence of abundant noise and redundant information, and acting upon the relevant new information is crucial.</p>
         <p><u>Inspired by the “Into the Unknown” task, I designed the following similar scenarios that can be used to test the financial decision-making abilities of LMs.</u></p>
             <div align="center">
                 <img style="max-width: 100%;" src="images/itufinance.png" alt="Data" height="auto">
             </div>
-          <p><a href="https://arxiv.org/abs/2306.09479" target="_blank">[1] Inverse Scaling: When Bigger Isn't Better</a></p>
-          <p><a href="https://arxiv.org/abs/2303.17564" target="_blank">[2] BloombergGPT: A Large Language Model for Finance</a></p>
-          <p><a href="https://arxiv.org/abs/2306.06031" target="_blank">[3] FinGPT: Open-Source Financial Large Language Models</a></p>
-          <p><a href="https://arxiv.org/abs/2309.03736" target="_blank">[4] TradingGPT: Multi-Agent System with Layered Memory and Distinct Character for Enhanced Financial Trading Performance</a></p>      
           
    <hr> 
 
