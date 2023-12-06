@@ -20,6 +20,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">   
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .iframe-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* 16:9 aspect ratio */
+        }
+
+        .iframe-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none; /* Remove iframe border */
+        }
+    </style>
 </head>
     
 <body>
@@ -40,11 +62,18 @@
         </nav>
     </header>
 
-<div class="page-content">
-    <iframe src="https://stockportfoliooptimizer.streamlit.app/?embed=true" width="48%" height="900px" style="float: left; margin-right: 1%;"></iframe>
-    <iframe src="https://sushobhan55-finbert-finviz.hf.space?embed=true" width="48%" height="900px" style="float: left;"></iframe>
-    <div style="clear: both;"></div>
-</div>
+    <div class="page-content">
+        <div class="iframe-container">
+            <iframe class="iframe-content" src="https://stockportfoliooptimizer.streamlit.app/?embed=true"></iframe>
+        </div>
+
+        <div class="iframe-container">
+            <iframe class="iframe-content" src="https://sushobhan55-finbert-finviz.hf.space?embed=true"></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
 
     
     
